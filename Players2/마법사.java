@@ -52,9 +52,9 @@ public class 마법사 {
 		this.주문 = 주문;
 	}
 
-	// target의 체력-5, attacker의 마나-5
+	// target의 체력-10, attacker의 마나-5
 	public void 기본공격(마법사 target) {
-		target.체력 -= 5;
+		target.체력 -= 10;
 		this.마나 -= 5;
 	}
 
